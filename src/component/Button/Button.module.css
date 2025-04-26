@@ -1,0 +1,40 @@
+.primary_btn {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   background-color: yellowgreen;
+   color: white;
+
+   padding: 10px 10px;
+   border-radius: 5px;
+   min-width: 220px;
+   gap: 8px;
+   font-size: 20px;
+   /*this will only increase the size of text.*/
+
+}
+
+.second_btn {
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   background-color: white;
+   color: black;
+   
+   gap: 8px;
+   padding: 18px 10px;
+   margin-bottom: 30px;
+   border: 1px solid black;
+   border-radius: 5px;
+   
+   min-width: 220px;
+   font-size: 16px;
+   
+   width: 100%;
+   cursor: pointer;
+   /*this will only increase the size of text.*/
+
+}

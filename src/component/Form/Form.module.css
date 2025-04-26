@@ -1,0 +1,60 @@
+/* container is global in index.css */
+/*but here we using the custome container for this it will override the global container as it is the custome of it*/
+
+.container {
+   display: flex;
+   max-width: 1000px;
+   margin: 0 auto;
+   margin: top 40px;
+   align-items: end;
+}
+
+
+.top_btn {
+   display: flex;
+   gap: 32px;
+   margin-bottom: 5px;
+}
+.Form_div {
+   display: flex;
+   flex-direction: column;
+   gap: 24;
+   padding: 10px;
+}
+
+
+.Form_div form{
+   display: flex;
+   gap: 20px;
+   padding-bottom: 20px;
+   flex-direction: column;
+}
+
+
+.form_control{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   position: relative;
+}
+
+.form_control input{
+   height:40px;
+   padding: 0 8px;
+}
+
+.form_control textarea{
+   padding: 10px;
+}
+
+.form_control label{
+   background-color: white;
+   position: absolute;
+   
+   font-weight: 700;
+   border-radius: 2px;
+   font-size: 14px;
+   top: -12px;
+   left: 10px;
+   padding: 0 10px;
+}

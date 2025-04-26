@@ -1,0 +1,23 @@
+.Navbar {
+   padding: 0 8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   height: 72px;
+}
+
+.Navbar ul {
+   display: flex;
+   gap: 24px;
+   list-style-type: none;
+   font-weight: 600;
+}
+
+.Navbar img {
+   margin-top: 40px;
+   background-color: whitesmoke;
+   border-radius: 10px;
+   height: 90px;
+   width: 90px;
+}
